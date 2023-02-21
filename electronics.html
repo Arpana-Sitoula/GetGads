@@ -11,35 +11,41 @@
 </head>
 
 <body>
-    <nav class="bg-cyan-900 text-gray-50 flex justify-around">
-        <div class="flex py-7 mx-31 md:hidden lg:flex py-5 mx-31"> <img src="Images/logo1.png" class="h-12 pl-5">
+    <nav class="bg-cyan-900 text-gray-50 flex justify-between md:justify-around">
+        <div class="flex py-5 mx-31 md:hidden lg:flex ">
+            <img src="Images/logo1.png" class="h-12 pl-5">
             <div class="font-bold pt-2 text-2xl">
                 <span>Get</span>
                 <span class="text-rose-600 -ml-1">Gads</span>
             </div>
         </div>
-        <div class="hidden md:flex">
-            <ul class="md:ml--20 lg:ml-96  py-7 flex justify-end space-x-7">
+        <div class="hamburger space-y-2 px-5 py-7 cursor-pointer md:hidden">
+            <div class="line h-[0.175rem] w-9 bg-cyan-100"></div>
+            <div class="line h-[0.175rem] w-9 bg-cyan-100"></div>
+            <div class="line h-[0.175rem] w-9 bg-cyan-100"></div>
+        </div>
+        <div class="hidden bg- md:flex">
+            <ul class="block  md:ml--20 md:py-7 md:flex md:justify-end md:space-x-7 lg:ml-96  ">
                 <li class="cursor-pointer">Home</li>
                 <li class="cursor-pointer">About</li>
                 <li class="cursor-pointer">Shop</li>
                 <li class="cursor-pointer">Contact Us</li>
             </ul>
 
-            <div class="py-5  ml-9"><button
-                    class="bg-rose-600 text-blue-50 px-2 mr-3 py-2 rounded-sm hover:bg-rose-500">Login</button></div>
+            <div class=" md:py-5 md:ml-9"><button
+                    class="bg-rose-600 text-blue-50 rounded-sm hover:bg-rose-500 mr-3 p-1   md:p-2">Login</button></div>
         </div>
     </nav>
-    <main class=" bg-cyan-100 flex justify-around">
-        <div class="main  py-48 mx-5 sm:mx-31">
-            <div class="text-5xl font-bold md:text-3xl lg:text-5xl">Welcome to our page</div>
-            <p class="py-5 sm:py-3">You can get the best electronics gadgets here</p>
+    <main class=" bg-cyan-100 md: flex justify-around">
+        <div class="main py-20 md:py-36 mx-5 sm:mx-31">
+            <div class="text-3xl text-left font-bold sm: text-4xl md:text-3xl lg:text-5xl">Welcome to our page</div>
+            <p class="py-3">You can get the best electronics gadgets here</p>
             <div class="button">
                 <button class="bg-rose-600  text-blue-50 my-2  p-2 rounded-md hover:bg-rose-500 active:bg-rose-700">Shop Now</button>
             </div>
         </div>
-        <div class="hidden   md:flex items-center">
-            <img src="Images/land.png" class="md:h-72 lg:h-96">
+        <div class=" hidden sm:flex items-center">
+            <img src="Images/land.png" class="sm:h-52 md:h-72 lg:h-96">
         </div>
     </main>
     <div class="mb-40">
